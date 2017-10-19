@@ -1,0 +1,10 @@
+/opt/imagedata/trainDataset_1.h5
+/opt/imagedata/trainDataset_2.h5
+/opt/imagedata/trainDataset_3.h5
+/opt/imagedata/trainDataset_4.h5
+/opt/imagedata/trainDataset_5.h5
+/opt/imagedata/trainDataset_6.h5
+/opt/imagedata/trainDataset_7.h5
+/opt/imagedata/trainDataset_8.h5
+/opt/imagedata/trainDataset_9.h5
+/opt/imagedata/trainDataset_10.h5
