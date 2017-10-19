@@ -20,3 +20,15 @@ There are some compatibility issues between ACL and Caffe Layers, we bypass it t
 * Group issue
 
 Performance need be fine turned in the future
+
+# Release History
+
+### Version 0.1.0 - 2017-10-19
+   
+  Initial version supports general object tracking base on SqueezeNet model on 3x3 conv. 
+
+# Issue Report
+Encounter any issue, please report on [issue report](https://github.com/OAID/TrackerGoturn/issues). Issue report should contain the following information :
+
+* The exact description of the steps that are needed to reproduce the issue 
+* The exact description of what happens and what you think is wrong 
