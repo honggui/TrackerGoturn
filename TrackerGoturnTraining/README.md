@@ -1,6 +1,7 @@
-# GOTURN Training Toolkit
+# TrackerGoturn Training Toolkit
+[![GitHub license](http://dmlc.github.io/img/apache2.svg)](./LICENSE)
 
-This is the code for training of GOTURN tracker implemented inside OpenCV.
+This is the code for training of TrackerGoturn implemented inside OpenCV.
 
 Original GOTURN paper:
 
