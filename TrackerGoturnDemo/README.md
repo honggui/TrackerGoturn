@@ -37,7 +37,7 @@ If you find this code useful in your research, please cite:
 
 Contents:
 * [Installation](#installation)
-* [Compile GOTURN demo](#Compile)
+* [TrackerGoturn Demo Compile](#TrackerGoturn/Demo Compile)
 * [Camera live demo](#Camera live demo)
 
 ## Installation
@@ -85,7 +85,7 @@ cmake ..
 make
 ```
 
-* GOTURN_demo Environment check
+* TrackerGoturn demo Environment check
 
 From GOTURN_demo main directory, to view CMakeLists.txt file and check the following env vars according your installed paths
 
@@ -101,7 +101,7 @@ set(Caffe_DEFINITIONS –DCPU_ONLY)
 ```
 And add "set(OpenCV_DIR "/usr/local/opencv/share/OpenCV")" at the 3rd line in the CMakeList.txt file if OPENCV_DIR cannot be found.
 
-## GOTURN_demo Compile
+## TrackerGoturn Demo Compile
 From GOTURN_demo main directory, type:
 
 ```
