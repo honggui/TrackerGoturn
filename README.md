@@ -8,7 +8,7 @@ The release version is 0.1.0, is based on [Rockchip RK3399](http://www.rock-chip
 * The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies. See also [Arm Compute Library](https://github.com/ARM-software/ComputeLibrary).
 
 ### Documents
-* [Installation instructions](https://github.com/OAID/TrackerGoturn/blob/master/TrackerGoturnDemo/INSTALL.md)
+* [Installation instructions for Demo](https://github.com/OAID/TrackerGoturn/blob/master/TrackerGoturnDemo/INSTALL.md)
 * [Performance Report PDF](https://github.com/OAID/TrackerGoturn/TrackerGoturnDemo/performance_report.pdf)
 
 ### Arm Compute Library Compatibility Issues :
