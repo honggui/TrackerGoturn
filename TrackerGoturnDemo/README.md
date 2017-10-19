@@ -1,6 +1,7 @@
-# GOTURN
+# TrackerGoturn Demo
+[![GitHub license](http://dmlc.github.io/img/apache2.svg)](./LICENSE)
 
-This is the code for our tracker, GOTURN: Generic Object Tracking Using Regression Networks.
+This is the code for our TrackerGoturn demo, using GOTURN: Generic Object Tracking Using Regression Networks.
 
 GOTURN appeared in this paper:
 
