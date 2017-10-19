@@ -9,15 +9,15 @@ This Installation will help you get started to setup TrackerGoturnDemo on RK3399
 
 ## 2.2 OpenCV3.3 installation
 
-	$wget https://github.com/opencv/opencv/archive/3.3.0.zip --no-check-certificate
-  	$unzip 3.30.zip
-  	$cd opencv-3.3.0
-  	$mkdir build
-  	$cd build
-  	$cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local/opencv ..
-  	$make -j4
- 	$sudo make install
-  	$sudo ldconfig
+	$ wget https://github.com/opencv/opencv/archive/3.3.0.zip --no-check-certificate
+  	$ unzip 3.30.zip
+  	$ cd opencv-3.3.0
+  	$ mkdir build
+  	$ cd build
+  	$ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local/opencv ..
+  	$ make -j4
+ 	$ sudo make install
+  	$ sudo ldconfig
   
   After installed, you can see the "bin","lib","include" and "share" dirs in installed dir: /usr/local/opencv
 
@@ -26,16 +26,16 @@ This Installation will help you get started to setup TrackerGoturnDemo on RK3399
   	Modify the Makefile "LIBRARIES += glog gflags protobuf leveldb snappy lmdb boost_system hdf5_hl hdf5 m opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs",if errors ocurred.
 
 ## 2.4 TinyXML installation(needed to load Imagenet annotations):
-	$sudo apt-get install libtinyxml-dev 
+	$ sudo apt-get install libtinyxml-dev 
 
 ## 2.4 Trax installation:
-	$cd ~
-	$git clone https://github.com/votchallenge/trax.git
-	$cd trax
-	$mkdir build
-	$cd build
-	$cmake ..
-	$make
+	$ cd ~
+	$ git clone https://github.com/votchallenge/trax.git
+	$ cd trax
+	$ mkdir build
+	$ cd build
+	$ cmake ..
+	$ make
 
 ## 2.5 TrackerGoturnDemo Environment check:
   From TrackerGoturnDemo main directory, to view CMakeLists.txt file and check the following env vars according your installed paths
@@ -56,10 +56,10 @@ This Installation will help you get started to setup TrackerGoturnDemo on RK3399
   From TrackerGoturnDemo main directory, type:
 
   ```
-  $mkdir build
+  $ mkdir build
   $cd build
-  $cmake ..
-  $make
+  $ cmake ..
+  $ make
   ```
   
 # 4.Camera live demo 
