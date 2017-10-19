@@ -22,8 +22,8 @@ This Installation will help you get started to setup TrackerGoturnDemo on RK3399
   After installed, you can see the "bin","lib","include" and "share" dirs in installed dir: /usr/local/opencv
 
 ## 2.3 Install CaffeOnACL and compile using the CMake build instructions:
-  Referenced by https://github.com/OAID/CaffeOnACL
-  Modify the Makefile "LIBRARIES += glog gflags protobuf leveldb snappy lmdb boost_system hdf5_hl hdf5 m opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs",if errors ocurred.
+  	Referenced by https://github.com/OAID/CaffeOnACL
+  	Modify the Makefile "LIBRARIES += glog gflags protobuf leveldb snappy lmdb boost_system hdf5_hl hdf5 m opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs",if errors ocurred.
 
 ## 2.4 TinyXML installation(needed to load Imagenet annotations):
   sudo apt-get install libtinyxml-dev 
