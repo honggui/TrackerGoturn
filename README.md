@@ -9,7 +9,7 @@ The release version is 0.1.0, is based on [Rockchip RK3399](http://www.rock-chip
 
 ### Documents
 * [Installation instructions for Demo](https://github.com/OAID/TrackerGoturn/blob/master/TrackerGoturnDemo/INSTALL.md)
-* [Performance Report PDF](https://github.com/OAID/TrackerGoturn/TrackerGoturnDemo/performance_report.pdf)
+* [Performance Report PDF](https://github.com/OAID/TrackerGoturn/blob/master/TrackerGoturnDemo/performance_report.pdf)
 
 ### Arm Compute Library Compatibility Issues :
 There are some compatibility issues between ACL and Caffe Layers, we bypass it to Caffe's original layer class as the workaround solution for the below issues
