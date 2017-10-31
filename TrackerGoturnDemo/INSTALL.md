@@ -14,7 +14,7 @@ This Installation will help you get started to setup TrackerGoturnDemo on RK3399
   	$ cd opencv-3.3.0
   	$ mkdir build
   	$ cd build
-  	$ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local/opencv ..
+  	$ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
   	$ make -j4
  	$ sudo make install
   	$ sudo ldconfig
