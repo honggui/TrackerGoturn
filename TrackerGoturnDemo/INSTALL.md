@@ -14,10 +14,12 @@ This Installation will help you get started to setup TrackerGoturnDemo on RK3399
   	$ cd opencv-3.3.0
   	$ mkdir build
   	$ cd build
-  	$ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
+  	$ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local/AID/opencv3.3.0 ..
   	$ make -j4
  	$ sudo make install
   	$ sudo ldconfig
+	$ wget https://github.com/OAID/AID-tools/tree/master/script/gen-pkg-config-pc.sh
+  	$ sudo ./gen-pkg-config-pc.sh /usr/local/AID
   
   After installed, you can see the "bin","lib","include" and "share" dirs in installed dir: /usr/local/opencv
 
@@ -41,16 +43,8 @@ This Installation will help you get started to setup TrackerGoturnDemo on RK3399
   From TrackerGoturnDemo main directory, to view CMakeLists.txt file and check the following env vars according your installed paths
 
   ```
-  find_package(Caffe REQUIRED)
-  set(Caffe_DIR /home/firefly/caffeOnACL/distribute)
-  set(Caffe_INCLUDE_DIR /home/firefly/caffeOnACL/distribute/include)
-  set(Caffe_LIBRARIES /home/firefly/caffeOnACL/build/lib/libcaffe.so)
-  set(ACL_LIBRARIES /home/firefly/ComputeLibrary/build/libarm_compute.so)
-  set(TRAX_LIBRARIES /home/firefly/trax/build/libtrax.so)
-  set(Caffe_DEFINITIONS –DCPU_ONLY)
-
+  set(AID-tool "/usr/local/AID")
   ```
-  And add "set(OpenCV_DIR "/usr/local/opencv/share/OpenCV")" at the 3rd line in the CMakeList.txt file if OPENCV_DIR cannot be found.
 
 # 3. Build TrackerGoturnDemo
   From TrackerGoturnDemo main directory, type:
