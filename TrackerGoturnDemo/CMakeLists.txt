@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(GOTURN)
 
-set(OpenCV_DIR "/usr/local/opencv/share/OpenCV")
+set(AID-tool "/usr/local/AID")
+set(OpenCV_DIR "${AID-tool}/opencv3.3.0/share/OpenCV")
 
 if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "Release")
@@ -32,11 +33,11 @@ message("Opencv_DEFINITIONS is ${Opencv_DEFINITIONS}")
 find_package(Caffe REQUIRED)
 # If Caffe not found, configure line 5 of cmake/Modules/FindCaffe.cmake
 # If that fails uncomment the two lines below and set paths manually
-set(Caffe_DIR /home/firefly/caffeOnACL/distribute)
-set(Caffe_INCLUDE_DIRS /home/firefly/caffeOnACL/distribute/include)
-set(Caffe_LIBRARIES /home/firefly/caffeOnACL/build/lib/libcaffe.so)
-set(ACL_LIBRARIES /home/firefly/ComputeLibrary/build/libarm_compute.so)
-set(TRAX_LIBRARIES /home/firefly/trax/build/libtrax.so)
+set(Caffe_DIR ${AID-tool}/CaffeOnACL)
+set(Caffe_INCLUDE_DIRS ${Caffe_DIR}/include)
+set(Caffe_LIBRARIES ${Caffe_DIR}/lib/libcaffe.so)
+set(ACL_LIBRARIES ${AID-tool}/ComputeLibrary/lib/libarm_compute.so)
+set(TRAX_LIBRARIES ${AID-tool}/trax/lib/libtrax.so)
 include_directories(${Caffe_INCLUDE_DIRS})
 # Uncomment for CPU only:
 set(Caffe_DEFINITIONS -DCPU_ONLY)
