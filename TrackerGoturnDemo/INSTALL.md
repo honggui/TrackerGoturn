@@ -58,7 +58,7 @@ This Installation will help you get started to setup TrackerGoturnDemo on RK3399
   
 # 4.Camera live demo 
 ```
-1) Change to camera directory , type as "cd GOTURN_demo/src/capture" directory, 
+1) Change to camera directory , type as "cd TrackerGoturnDemo/src/capture" directory, 
 2) Check the trax, caffeOnACL, opencv and ACL lib path in "build.sh" scripte file
 3) Run "build.sh" to generate exec files
 4) Plugin USB camera device
